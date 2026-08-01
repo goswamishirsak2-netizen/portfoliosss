@@ -3,7 +3,7 @@
 A modern, premium, fully responsive Frontend Developer Portfolio Website for **Shirsak Goswami**, built using pure HTML5, CSS3, and ES6+ JavaScript.
 
 ## 🚀 Live Demo & Features
-![portfolio preview]{https://github.com/goswamishirsak2-netizen/portfoliosss/blob/cd64e4bcecb84a415a88d8cd1eeb94f266bf8cf0/shirsak-profile.png}
+![portfolio preview](https://github.com/goswamishirsak2-netizen/portfoliosss/blob/cd64e4bcecb84a415a88d8cd1eeb94f266bf8cf0/shirsak-profile.png)
 
 
 - **Theme**: Dark Turquoise Premium UI (`#081B1B` background, `#00D4C7` glowing accent)
