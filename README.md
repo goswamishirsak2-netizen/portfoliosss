@@ -8,6 +8,8 @@ A modern, premium, fully responsive Frontend Developer Portfolio Website for **S
 
 ![image alt]{https://github.com/goswamishirsak2-netizen/portfoliosss/blob/48fbc1c666ae670256f42a272873fdcae23db4f8/project-ai.png}
 
+![image alt]{https://github.com/goswamishirsak2-netizen/portfoliosss/blob/ba232c65340584e3d8a99fb23e9b24440876e70e/shirsak-profile.png}
+
 - **Theme**: Dark Turquoise Premium UI (`#081B1B` background, `#00D4C7` glowing accent)
 - **Design System**: Glassmorphism cards, ambient particle canvas background, smooth CSS animations
 - **Tech Stack**: HTML, Python, AI Automation
