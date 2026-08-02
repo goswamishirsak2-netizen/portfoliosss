@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shirsak Goswami | Aspiring Frontend Developer & Tech Enthusiast</title>
+  
+  <!-- Meta Descriptions & SEO -->
+  <meta name="description" content="Portfolio of Shirsak Goswami - Aspiring Frontend Developer, Python Learner, and AI Enthusiast. Showcasing responsive web design, clean HTML/CSS/JS projects, and continuous learning." />
+  <meta name="keywords" content="Shirsak Goswami, Frontend Developer, Web Developer Portfolio, HTML CSS JavaScript, Python Learner, AI Enthusiast" />
+  <meta name="author" content="Shirsak Goswami" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Shirsak Goswami | Portfolio" />
+  <meta property="og:description" content="Aspiring Frontend Developer | Python Learner | AI Enthusiast" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Sora & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Preloader Screen -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">SG</span>
+        <span class="logo-bracket">/&gt;</span>
+      </div>
+      <div class="preloader-line-wrapper">
+        <div class="preloader-line"></div>
+      </div>
+      <span class="preloader-subtext">Loading Experience...</span>
+    </div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+  <!-- Dynamic Ambient Glow Blobs -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Background Particle Canvas -->
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Custom Glow Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-outline" id="cursorOutline"></div>
+
+  <!-- Navigation Header -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Shirsak Goswami Home">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-name">Shirsak<span class="accent-dot">.dev</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#journey" class="nav-link">Journey</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action & Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline">
+          <span>Let's Talk</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="badge-pulse"></span>
+            <span class="badge-text">✨ Welcome to my portfolio</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Shirsak Goswami</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Aspiring Frontend Developer <span class="divider">|</span> Python Learner <span class="divider">|</span> AI Enthusiast
+          </h2>
+
+          <p class="hero-description">
+            I'm currently learning HTML, CSS, JavaScript, Python, and AI tools. I enjoy building modern, responsive websites and continuously improving my skills through practical projects.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary ripple-btn">
+              <span class="btn-text">View Projects</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary ripple-btn">
+              <span class="btn-text">Contact Me</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Hero Tech Stack Quick Bar -->
+          <div class="hero-tech-pills">
+            <span class="tech-pill-title">Focus Areas:</span>
+            <div class="pills-wrapper">
+              <span class="tech-pill"><i class="pill-dot"></i> HTML5 & CSS3</span>
+              <span class="tech-pill"><i class="pill-dot"></i> JavaScript</span>
+              <span class="tech-pill"><i class="pill-dot"></i> Python</span>
+              <span class="tech-pill"><i class="pill-dot"></i> AI Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Animated Glass Card Visual -->
+        <div class="hero-visual reveal delay-1">
+          <div class="glass-card-wrapper" id="heroGlassCard">
+            <!-- Floating Orbiting Badges -->
+            <div class="orbit-badge badge-top-left">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span>Clean Code</span>
+            </div>
+
+            <div class="orbit-badge badge-top-right">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span>AI Enhanced</span>
+            </div>
+
+            <div class="orbit-badge badge-bottom-left">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <span>Responsive</span>
+            </div>
+
+            <!-- Main Interactive Glass Center Display -->
+            <div class="glass-card-inner">
+              <div class="glass-header">
+                <div class="window-controls">
+                  <span class="control red"></span>
+                  <span class="control yellow"></span>
+                  <span class="control green"></span>
+                </div>
+                <div class="window-title">shirsak_developer_hub.js</div>
+              </div>
+
+              <div class="glass-body">
+                <!-- Code & AI Icon Central Hexagon -->
+                <div class="icon-hex-wrapper">
+                  <div class="icon-hex">
+                    <svg class="main-code-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                      <line x1="14" y1="4" x2="10" y2="20"></line>
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="tech-icons-row">
+                  <!-- HTML5 Icon -->
+                  <div class="tech-icon-item" title="HTML5">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 3l1.8 16.5L12 21l6.2-1.5L20 3H4z"></path>
+                      <path d="M16.5 7.5H7.5l.5 4.5h8l-.5 4.5-3.5 1-3.5-1-.2-2.5"></path>
+                    </svg>
+                    <span>HTML5</span>
+                  </div>
+
+                  <!-- CSS3 Icon -->
+                  <div class="tech-icon-item" title="CSS3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 3l1.8 16.5L12 21l6.2-1.5L20 3H4z"></path>
+                      <path d="M7 7.5h10l-.4 4H7.5l.4 4.5 4.1 1.2 4.1-1.2.3-3.3"></path>
+                    </svg>
+                    <span>CSS3</span>
+                  </div>
+
+                  <!-- JavaScript Icon -->
+                  <div class="tech-icon-item" title="JavaScript">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                      <path d="M8 17v-4a2 2 0 0 1 4 0v4M16 17v-6"></path>
+                    </svg>
+                    <span>JS</span>
+                  </div>
+
+                  <!-- Python Icon -->
+                  <div class="tech-icon-item" title="Python">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2c-3.3 0-6 2.7-6 6v2h6v2H6a4 4 0 0 0-4 4c0 3.3 2.7 6 6 6h2v-6h4v6h2c3.3 0 6-2.7 6-6v-2h-6v-2h6a4 4 0 0 0 4-4c0-3.3-2.7-6-6-6h-2v6h-4V2h-2z"></path>
+                    </svg>
+                    <span>Python</span>
+                  </div>
+
+                  <!-- AI Icon -->
+                  <div class="tech-icon-item" title="AI & Automation">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <span>AI</span>
+                  </div>
+                </div>
+
+                <!-- Code Terminal Snippet Preview -->
+                <div class="code-snippet-box">
+                  <div class="snippet-line"><span class="code-keyword">const</span> developer = {</div>
+                  <div class="snippet-line indent"><span class="code-key">name</span>: <span class="code-string">'Shirsak Goswami'</span>,</div>
+                  <div class="snippet-line indent"><span class="code-key">passion</span>: <span class="code-string">'Frontend & AI'</span>,</div>
+                  <div class="snippet-line indent"><span class="code-key">status</span>: <span class="code-string">'Building & Learning'</span></div>
+                  <div class="snippet-line">};</div>
+                </div>
+
+                <div class="card-footer-status">
+                  <span class="status-dot"></span>
+                  <span class="status-text">Available for Projects & Collaboration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">01. ABOUT ME</span>
+          <h2 class="section-title">Driven by Curiosity & Code</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Content -->
+          <div class="about-content reveal">
+            <h3 class="about-heading">
+              Building modern web solutions while expanding technical horizons.
+            </h3>
+
+            <p class="about-text">
+              Hello! I'm <strong>Shirsak Goswami</strong>, an enthusiastic learner dedicated to mastering the craft of modern web development. My journey began with a curiosity for how websites operate, which quickly grew into a hands-on passion for crafting clean, intuitive, and responsive user interfaces.
+            </p>
+
+            <p class="about-text">
+              I am currently focusing on building a solid foundation in <strong>HTML5, CSS3, Vanilla JavaScript, and Python</strong>. Additionally, I am deeply intrigued by Artificial Intelligence and how AI tools can enhance web experiences, automate workflows, and empower developers to build smarter applications.
+            </p>
+
+            <p class="about-text">
+              My goal is to become a versatile Frontend Developer who bridges creative design with solid engineering. I approach every project with enthusiasm, attention to detail, and a commitment to writing clean, accessible code.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Semantic HTML & Modern CSS</span>
+              </div>
+              <div class="highlight-item">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Responsive & Mobile-First Approach</span>
+              </div>
+              <div class="highlight-item">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Interactive JavaScript Logic</span>
+              </div>
+              <div class="highlight-item">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Python Scripting & AI Explorations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Stats Cards Grid -->
+          <div class="about-stats-grid reveal delay-1">
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div class="stat-number" data-target="5">5+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="stat-number" data-target="150">150+</div>
+              <div class="stat-label">Hours of Coding</div>
+            </div>
+
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zM6 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"></path>
+                </svg>
+              </div>
+              <div class="stat-number" data-target="6">6+</div>
+              <div class="stat-label">Tech Skills Mastered</div>
+            </div>
+
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Dedication to Growth</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">02. SKILLS</span>
+          <h2 class="section-title">Technical Skills & Expertise</h2>
+          <p class="section-subtitle">A breakdown of my current skill set, tools, and ongoing learning areas.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card: HTML -->
+          <div class="skill-card glass-card reveal">
+            <div class="skill-card-top">
+              <div class="skill-icon html-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 3l1.8 16.5L12 21l6.2-1.5L20 3H4z"></path>
+                  <path d="M16.5 7.5H7.5l.5 4.5h8l-.5 4.5-3.5 1-3.5-1-.2-2.5"></path>
+                </svg>
+              </div>
+              <span class="skill-tag tag-advanced">Advanced</span>
+            </div>
+            <h3 class="skill-title">HTML5</h3>
+            <p class="skill-desc">Semantic structure, SEO standards, accessibility (a11y), and proper document hierarchy.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card: CSS -->
+          <div class="skill-card glass-card reveal delay-1">
+            <div class="skill-card-top">
+              <div class="skill-icon css-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 3l1.8 16.5L12 21l6.2-1.5L20 3H4z"></path>
+                  <path d="M7 7.5h10l-.4 4H7.5l.4 4.5 4.1 1.2 4.1-1.2.3-3.3"></path>
+                </svg>
+              </div>
+              <span class="skill-tag tag-advanced">Advanced</span>
+            </div>
+            <h3 class="skill-title">CSS3 & Styling</h3>
+            <p class="skill-desc">Flexbox, CSS Grid, Glassmorphism, animations, custom properties, and responsive design.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card: JavaScript -->
+          <div class="skill-card glass-card reveal delay-2">
+            <div class="skill-card-top">
+              <div class="skill-icon js-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                  <path d="M8 17v-4a2 2 0 0 1 4 0v4M16 17v-6"></path>
+                </svg>
+              </div>
+              <span class="skill-tag tag-intermediate">Intermediate</span>
+            </div>
+            <h3 class="skill-title">JavaScript (ES6+)</h3>
+            <p class="skill-desc">DOM manipulation, event handling, ES6 features, Canvas API, async execution, and interactive logic.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">75%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card: Python -->
+          <div class="skill-card glass-card reveal">
+            <div class="skill-card-top">
+              <div class="skill-icon python-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2c-3.3 0-6 2.7-6 6v2h6v2H6a4 4 0 0 0-4 4c0 3.3 2.7 6 6 6h2v-6h4v6h2c3.3 0 6-2.7 6-6v-2h-6v-2h6a4 4 0 0 0 4-4c0-3.3-2.7-6-6-6h-2v6h-4V2h-2z"></path>
+                </svg>
+              </div>
+              <span class="skill-tag tag-intermediate">Intermediate</span>
+            </div>
+            <h3 class="skill-title">Python</h3>
+            <p class="skill-desc">Language fundamentals, object-oriented concepts, scripting, automation, and problem solving.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">70%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card: Responsive Design -->
+          <div class="skill-card glass-card reveal delay-1">
+            <div class="skill-card-top">
+              <div class="skill-icon responsive-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <span class="skill-tag tag-advanced">Advanced</span>
+            </div>
+            <h3 class="skill-title">Responsive Design</h3>
+            <p class="skill-desc">Mobile-first design philosophy, media queries, clamp-based typography, and touch optimization.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card: Git & GitHub -->
+          <div class="skill-card glass-card reveal delay-2">
+            <div class="skill-card-top">
+              <div class="skill-icon git-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="18" cy="18" r="3"></circle>
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M18 9a9 9 0 0 1-9 9"></path>
+                  <line x1="6" y1="9" x2="6" y2="15"></line>
+                </svg>
+              </div>
+              <span class="skill-tag tag-intermediate">Intermediate</span>
+            </div>
+            <h3 class="skill-title">Git & GitHub</h3>
+            <p class="skill-desc">Version control, repository management, committing code, branching, and open-source practices.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">75%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card: AI Tools -->
+          <div class="skill-card glass-card reveal">
+            <div class="skill-card-top">
+              <div class="skill-icon ai-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+              <span class="skill-tag tag-enthusiast">Enthusiast</span>
+            </div>
+            <h3 class="skill-title">AI Tools & Workflows</h3>
+            <p class="skill-desc">Leveraging AI assistants, prompt engineering, code optimization, and exploring LLM integrations.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">80%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card: UI/UX Basics -->
+          <div class="skill-card glass-card reveal delay-1">
+            <div class="skill-card-top">
+              <div class="skill-icon ux-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                </svg>
+              </div>
+              <span class="skill-tag tag-learning">Learning</span>
+            </div>
+            <h3 class="skill-title">UI/UX Fundamentals</h3>
+            <p class="skill-desc">Visual hierarchy, contrast, spatial consistency, color theory, glassmorphism, and micro-interactions.</p>
+            <div class="skill-progress-container">
+              <div class="skill-progress-info">
+                <span>Proficiency</span>
+                <span class="progress-percent">70%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--target-width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">03. PROJECTS</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Hands-on applications demonstrating modern layout, clean code, and user experience.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: 5 Star Chocolate Website -->
+          <div class="project-card glass-card reveal">
+            <div class="project-badge-bar">
+              <span class="project-status status-completed">✔ Completed</span>
+              <span class="project-number">01</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">5 Star Chocolate Website</h3>
+              <p class="project-description">
+                A rich, interactive brand landing page created for 5 Star Chocolate. Designed with smooth CSS animations, dynamic visual sections, product showcases, and a fully responsive layout across all device sizes.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS Animations</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#projects" class="btn btn-sm btn-primary project-btn demo-trigger" data-project="5 Star Chocolate Website">
+                  <span>Live Demo</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/goswamishirsak2-netizen" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline project-btn">
+                  <span>GitHub</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Personal Portfolio -->
+          <div class="project-card glass-card reveal delay-1">
+            <div class="project-badge-bar">
+              <span class="project-status status-current">⚡ Current Project</span>
+              <span class="project-number">02</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Personal Developer Portfolio</h3>
+              <p class="project-description">
+                My personal frontend portfolio website built from scratch with pure HTML, CSS, and JavaScript. Features dark cyan glassmorphism aesthetics, dynamic background particle canvas, fluid typography, 3D card tilt effects, and a mobile-friendly drawer menu.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Vanilla JS</span>
+                <span class="tech-tag">Canvas API</span>
+                <span class="tech-tag">Glassmorphism</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#hero" class="btn btn-sm btn-primary project-btn">
+                  <span>Live Demo</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/goswamishirsak2-netizen/Shirsak" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline project-btn">
+                  <span>GitHub</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: More Projects Coming Soon (Teaser Card) -->
+          <div class="project-card glass-card teaser-card reveal delay-2">
+            <div class="project-badge-bar">
+              <span class="project-status status-upcoming">🚀 Coming Soon</span>
+              <span class="project-number">03</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Python & AI Web Applications</h3>
+              <p class="project-description">
+                Currently building new practical projects combining Python backend scripts, AI API integrations, and interactive JavaScript interfaces. New code repositories will be updated soon.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">AI APIs</span>
+                <span class="tech-tag">Web Tools</span>
+                <span class="tech-tag">Automation</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#contact" class="btn btn-sm btn-secondary project-btn w-100">
+                  <span>Suggest an Idea / Collaborate</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEARNING JOURNEY SECTION -->
+    <section class="section journey-section" id="journey">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">04. LEARNING JOURNEY</span>
+          <h2 class="section-title">Timeline & Growth Roadmap</h2>
+          <p class="section-subtitle">A vertical view of milestones achieved and current learning directions.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item timeline-completed reveal">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-status-badge badge-done">✔ Completed</span>
+                <span class="timeline-title">HTML5 Fundamentals & Semantic Web</span>
+              </div>
+              <p class="timeline-desc">Mastered structural elements, document accessibility, SEO markup standards, forms, and audio/video embedding.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item timeline-completed reveal delay-1">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-status-badge badge-done">✔ Completed</span>
+                <span class="timeline-title">CSS3 Styling, Flexbox & CSS Grid</span>
+              </div>
+              <p class="timeline-desc">Acquired strong skills in visual design, modern layouts, CSS variables, glassmorphism backdrop filters, and keyframe animations.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item timeline-completed reveal">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-status-badge badge-done">✔ Completed</span>
+                <span class="timeline-title">JavaScript Essentials & DOM Manipulation</span>
+              </div>
+              <p class="timeline-desc">Learned core JavaScript logic, events, DOM traversal, functions, arrays, objects, and interactive UI features.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item timeline-completed reveal delay-1">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-status-badge badge-done">✔ Completed</span>
+                <span class="timeline-title">Responsive Web Design & Mobile Optimization</span>
+              </div>
+              <p class="timeline-desc">Applied fluid typography, flexible image containers, touch navigation, and cross-browser responsiveness.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 5 -->
+          <div class="timeline-item timeline-completed reveal">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-status-badge badge-done">✔ Completed</span>
+                <span class="timeline-title">Built & Deployed First Website</span>
+              </div>
+              <p class="timeline-desc">Created the 5 Star Chocolate Website project, integrating animations, layout structure, and responsive styling.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 6 -->
+          <div class="timeline-item timeline-completed reveal delay-1">
+            <div class="timeline-marker">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <span class="timeline-status-badge badge-done">✔ Completed</span>
+                <span class="timeline-title">Python Programming Basics</span>
+              </div>
+              <p class="timeline-desc">Explored syntax, variables, data structures, control flow, functions, and introductory scripting in Python.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 7: Current Focus -->
+          <div class="timeline-item timeline-active reveal delay-2">
+            <div class="timeline-marker active-marker">
+              <span class="pulse-ring"></span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+              </svg>
+            </div>
+            <div class="timeline-content glass-card active-card">
+              <div class="timeline-header">
+                <span class="timeline-status-badge badge-current">🚀 Current Focus</span>
+                <span class="timeline-title">Exploring AI & Modern Web Development</span>
+              </div>
+              <p class="timeline-desc">Actively integrating AI-assisted developer workflows, building modern JS applications, and refining UI/UX capabilities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">05. SERVICES</span>
+          <h2 class="section-title">What I Can Do For You</h2>
+          <p class="section-subtitle">High-quality frontend development and design services tailored to your needs.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <div class="service-card glass-card reveal">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Frontend Website Development</h3>
+            <p class="service-desc">Building clean, modern, and high-performance websites using pure HTML5, CSS3, and JavaScript with structured code.</p>
+            <ul class="service-features">
+              <li><i class="check-icon">✓</i> Semantic HTML5 Structure</li>
+              <li><i class="check-icon">✓</i> Custom CSS Styling</li>
+              <li><i class="check-icon">✓</i> Vanilla JavaScript Logic</li>
+            </ul>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service-card glass-card reveal delay-1">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Responsive Landing Pages</h3>
+            <p class="service-desc">Designing attractive, fast-loading landing pages optimized to look beautiful on mobile phones, tablets, and desktop displays.</p>
+            <ul class="service-features">
+              <li><i class="check-icon">✓</i> Mobile-First Approach</li>
+              <li><i class="check-icon">✓</i> Cross-Browser Compatibility</li>
+              <li><i class="check-icon">✓</i> Fast Load Speeds</li>
+            </ul>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card glass-card reveal delay-2">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Portfolio Websites</h3>
+            <p class="service-desc">Creating modern personal portfolio websites for students, developers, and creators to showcase skills and projects professionally.</p>
+            <ul class="service-features">
+              <li><i class="check-icon">✓</i> Unique Glassmorphism Aesthetics</li>
+              <li><i class="check-icon">✓</i> Interactive Skill & Project Cards</li>
+              <li><i class="check-icon">✓</i> Contact Form Integration</li>
+            </ul>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="service-card glass-card reveal">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Website Redesign</h3>
+            <p class="service-desc">Upgrading outdated sites with modern layout trends, vibrant turquoise accents, smooth animations, and enhanced visual appeal.</p>
+            <ul class="service-features">
+              <li><i class="check-icon">✓</i> Visual Polish & Layout Upgrade</li>
+              <li><i class="check-icon">✓</i> Improved Spacing & Hierarchy</li>
+              <li><i class="check-icon">✓</i> Dynamic Hover Effects</li>
+            </ul>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="service-card glass-card reveal delay-1">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">AI-Assisted Web Development</h3>
+            <p class="service-desc">Integrating modern AI tools and workflows to build efficient, intelligent web interfaces and automate repetitive tasks.</p>
+            <ul class="service-features">
+              <li><i class="check-icon">✓</i> Prompt-Driven UI Generation</li>
+              <li><i class="check-icon">✓</i> AI Tool Integration</li>
+              <li><i class="check-icon">✓</i> Efficient Development Cycle</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">06. CONTACT</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-subtitle">Whether you have an idea, project, or simply want to say hello, my inbox is always open!</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Direct Social Cards -->
+          <div class="contact-info reveal">
+            <h3 class="contact-info-title">Contact Information</h3>
+            <p class="contact-info-desc">
+              Feel free to reach out through any of the platforms below or fill out the contact form. I respond promptly to all messages.
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- Email Card -->
+              <a href="mailto:goswamishirsak2@gmail.com" class="contact-card glass-card">
+                <div class="contact-card-icon email-bg">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-card-detail">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">goswamishirsak2@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn Card -->
+              <a href="https://linkedin.com/in/shirsak-goswami" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+                <div class="contact-card-icon linkedin-bg">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-card-detail">
+                  <span class="contact-label">LinkedIn</span>
+                  <span class="contact-value">linkedin.com/in/shirsak-goswami</span>
+                </div>
+              </a>
+
+              <!-- GitHub Card -->
+              <a href="https://github.com/goswamishirsak2-netizen" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+                <div class="contact-card-icon github-bg">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div class="contact-card-detail">
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-value">github.com/goswamishirsak2-netizen</span>
+                </div>
+              </a>
+
+              <!-- Instagram Card -->
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+                <div class="contact-card-icon instagram-bg">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="contact-card-detail">
+                  <span class="contact-label">Instagram</span>
+                  <span class="contact-value">@shirsak_goswami</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form UI -->
+          <div class="contact-form-wrapper glass-card reveal delay-1">
+            <h3 class="form-title">Send Me a Message</h3>
+            
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <div class="input-wrapper">
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Morgan" required />
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <div class="input-wrapper">
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com" required />
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <div class="input-wrapper">
+                  <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Project Inquiry / Collaboration" required />
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <div class="input-wrapper">
+                  <textarea id="message" name="message" class="form-input form-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+                  <span class="input-focus-border"></span>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary ripple-btn w-100" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Live Demo Modal Window -->
+  <div class="modal-overlay" id="demoModal">
+    <div class="modal-card glass-card">
+      <button class="modal-close" id="modalClose" aria-label="Close Modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge">Project Showcase</span>
+        <h3 class="modal-title" id="modalTitle">5 Star Chocolate Website</h3>
+      </div>
+      <div class="modal-body">
+        <p>This is a live preview demonstration card for the project. Built with rich HTML, CSS & JavaScript animations.</p>
+        <div class="modal-preview-box">
+          <div class="preview-glow-bg"></div>
+          <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="var(--accent-primary)" stroke-width="1.5">
+            <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+          </svg>
+          <h4>5 Star Chocolate Interactive Preview</h4>
+          <p>Full responsiveness, product carousel, and smooth scroll transitions.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" id="modalCloseBtn">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to Top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <a href="#hero" class="footer-logo">
+          <span class="logo-symbol">&lt;/&gt;</span>
+          <span class="logo-name">Shirsak<span class="accent-dot">.dev</span></span>
+        </a>
+        <p class="footer-tagline">Crafting modern frontend experiences with clean code & continuous learning.</p>
+        <ul class="footer-nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          © 2026 <strong>Shirsak Goswami</strong>. All Rights Reserved.
+        </p>
+        <p class="credits">
+          Designed & Developed using HTML, CSS & JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
